@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boitumelo Maluleke</title>
+    <link href='https://fonts.googleapis.com/css2?family=Inter&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+   <div class="navbar">
+    <nav class="nav-container">
+        <img id="navbar-logo" src="myLogo.png" alt="Logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education-work.html">Education and Work Experience</a></li>
+                <li><a href="contact.html"Contact>Contact</a></li>
+            </ul>
+        </nav> 
+   </div>
+   <div class="page-heading">
+    <p>contact me</p>
+   </div>
+
+   <div class="contact-container">
+   <div class="contact-form">
+    <form class="contact-form1" action="contact_form.php" method="POST">
+        <p>Contact me directly</p>
+        <div>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+        </div>
+        <div>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="contact_number">Contact Number:</label>
+            <input type="tel" id="contact_number" name="contact_number" required>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Contact Us</button>
+    </form>
+   </div>
+   <div class="get-in-touch">
+    <p>Get in touch with me</p>
+    <i class="far fa-envelope icon"></i>
+    <p>btmaluleke684@gmail.com</p>
+    <i class="fab fa-linkedin-in icon"></i>
+    <p>Boitumelo Maluleke</p>
+    <i class="fas fa-map-marker-alt icon"></i>
+    <p>1 Cachet Street <br> Klippoortjie <br> Boksburg <br> 1459</p>
+    </div>
+</div>
+<script src="validate.js"></script>  
+</body>
+</html>
